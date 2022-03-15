@@ -1,0 +1,26 @@
+.nav {
+  grid-area: n;
+  margin-top: 15px;
+
+}
+
+.item {
+  color: #6B6E70;
+  text-decoration: none;
+}
+
+.activeLink {
+  /*background-color: #86C232;*/
+  color: #86C232;
+  text-decoration: none;
+}
+
+.navButton {
+  width: 200px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+
+.navButton :hover {
+  color: #61892F ;
+}

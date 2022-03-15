@@ -1,0 +1,25 @@
+.photoBlock {
+  width: 230px;
+  background-color: #333336;
+  border-radius: 5px;
+
+}
+
+.photoBlock img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.editButton {
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #6B6E70;
+  color: #fff;
+}
