@@ -24,3 +24,8 @@
 .navButton :hover {
   color: #61892F ;
 }
+
+.icon {
+  width: 20px;
+  color: #fff;
+}

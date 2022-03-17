@@ -1,0 +1,33 @@
+.mainInfo {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.infoHead {
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #6B6E70;
+}
+
+.infoData {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.moreInfoButton {
+  width: 95%;
+  height: 30px;
+  margin: 10px 15px 0;
+  background-color: #333336;
+  border-radius: 5px;
+  border: none;
+  color: #6B6E70;
+}
+
+.moreInfoButton:hover {
+  background-color: #6B6E70;
+  color: #333336;
+}

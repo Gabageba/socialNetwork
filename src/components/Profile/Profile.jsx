@@ -1,13 +1,15 @@
 import React from 'react';
 import style from './Profile.module.css'
-import PhotoBlock from './PhotoBlock/PhotoBlock';
-import InfoBlock from './InfoBlock/InfoBlock';
+import LeftColumn from './LeftColumn/LeftColumn';
+import RightColumn from './RightColumn/RightColumn';
+
 
 const Profile = (props) => {
   return (
     <div className={style.profile}>
-      <PhotoBlock state={props.state.profileData}/>
-      <InfoBlock state={props.state.profileData}/>
+      <LeftColumn profilePage={props.profilePage}/>
+      <RightColumn profilePage={props.profilePage}
+                   dispatch={props.dispatch}/>
     </div>
   )
 }
