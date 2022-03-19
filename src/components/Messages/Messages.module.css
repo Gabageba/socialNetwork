@@ -1,0 +1,14 @@
+.messages {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  grid-template-rows: 50px 1fr;
+  align-items: stretch;
+}
+
+.dialog {
+  background-color: #333336;
+  border-left: 1px solid #222629;
+  border-right: 1px solid #222629;
+  box-sizing: border-box;
+
+}

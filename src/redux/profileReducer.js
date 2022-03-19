@@ -16,28 +16,28 @@ let initialState = {
   postData: [
     {
       id: 1,
-      name: 'Егор Борыняк',
+      name: 'Полина Свиридова',
       message: 'Hi how are you',
       likesCount: 3,
-      avatar: 'https://shapka-youtube.ru/wp-content/uploads/2020/12/ava-anime-1.jpg'
+      avatar: 'https://avatars.yandex.net/get-music-content/103235/8f49549f.a.7117216-1/m1000x1000?webp=false'
     },
     {
       id: 2,
-      name: 'Егор Гречко',
+      name: 'Николай Смирнов',
       message: 'It\'s my first post',
       likesCount: 56,
-      avatar: 'https://avatars.mds.yandex.net/i?id=a3863d37caad9303f87326aaac594681-5874987-images-thumbs&n=13&exp=1'
+      avatar: 'https://pixelbox.ru/wp-content/uploads/2022/01/avatar-estetik-krasota-pixelbox.ru-35.jpg'
     },
     {
       id: 3,
-      name: 'Никита Веретко',
+      name: 'Фёдор Ковалев',
       message: 'Fuck you',
       likesCount: 100,
       avatar: 'https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkW6oS2kKn63RiJTxk6T6xGqaKTM5SRkZCeTgDn6uOyic&fn=sqr_288'
     },
     {
       id: 4,
-      name: 'Никита Веретко',
+      name: 'Фёдор Ковалев',
       message: 'Motherfucker',
       likesCount: 999,
       avatar: 'https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1RkW6oS2kKn63RiJTxk6T6xGqaKTM5SRkZCeTgDn6uOyic&fn=sqr_288'

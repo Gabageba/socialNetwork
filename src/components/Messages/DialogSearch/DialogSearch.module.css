@@ -1,0 +1,21 @@
+.dialogSearch {
+  height: 50px;
+  background-color: #333336;
+  align-items: center;
+  display: flex;
+  border: 1px solid #222629;
+  box-sizing: border-box;
+}
+
+.searchBar {
+  height: 30px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  color: #6B6E70;
+  outline: none;
+}
+
+.searchIcon {
+  margin-left: 10px;
+}

@@ -1,0 +1,7 @@
+.messageItem {
+  padding-left: 10px;
+  background-color: #333336;
+  box-sizing: border-box;
+  border-right: 1px solid #222629;
+  border-bottom: 1px solid #222629;
+}

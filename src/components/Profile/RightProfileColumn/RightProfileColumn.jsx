@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './RightColumn.module.css'
+import style from './RightProfileColumn.module.css'
 import InfoBlock from './InfoBlock/InfoBlock';
 import PostBlock from './PostBlock/PostBlock';
 
-const RightColumn = (props) => {
+const RightProfileColumn = (props) => {
   return (
     <div className={style.rightColumn}>
       <InfoBlock profileData={props.profilePage.profileData}/>
@@ -13,4 +13,4 @@ const RightColumn = (props) => {
   )
 }
 
-export default RightColumn
+export default RightProfileColumn
