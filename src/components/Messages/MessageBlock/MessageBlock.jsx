@@ -1,11 +1,11 @@
 import React from 'react';
 import style from './MessageBlock.module.css'
 import MessageItem from './MessageItem/MessageItem';
-import NewMessage from './NewMessage/NewMessage';
+import NewMessageContainer from './NewMessage/NewMessageContainer';
 
 const MessageBlock = (props) => {
 
-  let messagesElements = props.messagesPage.messagesData.map((m) => (
+  let messagesElements = props.messagesData.map((m) => (
     <MessageItem message={m.message}/>
   ))
 
@@ -14,7 +14,7 @@ const MessageBlock = (props) => {
       <div className={style.messageItem}>
         {messagesElements}
       </div>
-      <NewMessage newMessageText={props.messagesPage.newMessageText} dispatch={props.dispatch}/>
+      <NewMessageContainer/>
     </div>
   )
 }

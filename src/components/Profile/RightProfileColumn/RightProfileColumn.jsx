@@ -7,8 +7,7 @@ const RightProfileColumn = (props) => {
   return (
     <div className={style.rightColumn}>
       <InfoBlock profileData={props.profilePage.profileData}/>
-      <PostBlock profilePage={props.profilePage}
-                 dispatch={props.dispatch}/>
+      <PostBlock postData={props.profilePage.postData}/>
     </div>
   )
 }

@@ -8,8 +8,7 @@ const Profile = (props) => {
   return (
     <div className={style.profile}>
       <LeftProfileColumn profilePage={props.profilePage}/>
-      <RightProfileColumn profilePage={props.profilePage}
-                          dispatch={props.dispatch}/>
+      <RightProfileColumn profilePage={props.profilePage}/>
     </div>
   )
 }

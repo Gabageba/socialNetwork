@@ -4,13 +4,13 @@ import {addMessageActionCreator, updateNewMessageTextActionCreator} from '../../
 
 const NewMessage = (props) => {
 
-  let addMessage = () => {
-    props.dispatch(addMessageActionCreator())
+  let onAddMessageClick = () => {
+    props.sendMessage()
   }
 
   let onMessageChange = (event) => {
-    let text = event.target.value
-    props.dispatch(updateNewMessageTextActionCreator(text))
+    let body = event.target.value
+    props.updateNewMessageText(body)
   }
 
   return (
@@ -20,7 +20,7 @@ const NewMessage = (props) => {
              placeholder='Напишите сообщение...'
              onChange={onMessageChange}
              value={props.newMessageText}/>
-      <button onClick={addMessage}
+      <button onClick={onAddMessageClick}
               className={style.sendButton}>▶</button>
     </div>
   )

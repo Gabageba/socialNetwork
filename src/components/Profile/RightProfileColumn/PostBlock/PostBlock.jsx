@@ -1,11 +1,11 @@
 import React from 'react';
 import style from './PostBlock.module.css'
-import NewPost from './NewPost/NewPost';
 import Post from './Post/Post';
+import NewPostContainer from './NewPost/NewPostContainer';
 
 const PostBlock = (props) => {
 
-  let postsElements = props.profilePage.postData.map(p => (
+  let postsElements = props.postData.map(p => (
     <Post message={p.message}
           name={p.name}
           likeCounter={p.likesCount}
@@ -14,8 +14,7 @@ const PostBlock = (props) => {
 
   return (
     <div>
-      <NewPost newPostText={props.profilePage.newPostText}
-               dispatch={props.dispatch}/>
+      <NewPostContainer/>
       <div className={style.posts}>
         {postsElements}
       </div>

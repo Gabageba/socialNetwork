@@ -21,8 +21,7 @@ const Messages = (props) => {
       <div className={style.dialog}>
         {dialogsElements}
       </div>
-      <MessageBlock messagesPage={props.messagesPage}
-                    dispatch={props.dispatch}/>
+      <MessageBlock messagesData={props.messagesPage.messagesData}/>
     </div>
   )
 }
